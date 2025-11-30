@@ -1,0 +1,234 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+}
+
+QLabel#feedsLabel {
+    font-size: 20pt;
+    color: #CCCCCC;
+}
+
+QLineEdit#searchBar{
+    background: #444444;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #CCCCCC;
+}
+
+QLineEdit#addFeedLineEdit {
+    background: #676767;
+    border: none;
+    border-radius: 15px;
+    right-margin: none;
+    color: #CCCCCC;
+}
+
+QScrollArea {
+    border: none;
+}
+
+QScrollBar:vertical {
+    border: none;
+    background: #2e2e2e;
+    width: 6px; 
+    margin: 6px 0 6px 0; 
+    border-radius: 3px; 
+}
+
+QScrollBar::handle:vertical {
+    background: #555555;
+    min-height: 20px; 
+    border-radius: 3px; 
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    border: none;
+    background: none;
+    height: 0; /* Hide the top and bottom buttons */
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+QScrollBar:horizontal {
+    border: none;
+    background: #2e2e2e;
+    height: 6px; 
+    margin: 0 6px 0 6px; 
+    border-radius: 3px;
+}
+
+QScrollBar::handle:horizontal {
+    background: none;
+    min-width: 20px;
+    border-radius: 3px; 
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    border: none;
+    background: none;
+    width: 0;
+}
+
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+FeedListWidget {
+    background-color: #151515;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+QLabel {
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+QListView#feedListView {
+    background-color: #151515;
+    color: #FFFFFF;
+    border: none;
+    show-decoration-selected: 1;
+}
+
+QListView#feedListView::item {
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+QListView#feedListView::item:hover {
+    background-color: #333333;
+}
+
+QListView#feedListView::item:selected {
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+QPushButton {
+    color: #FFFFFF;
+    background-color: #d441bc;
+    border: none;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+QPushButton:hover {
+    background-color: #b3379e;
+}
+
+QPushButton:pressed {
+    background-color: #822873;
+}
+
+Client {
+    background-color: #222222;
+}
+
+
+FeedBottomWidget {
+    background-color: #222222;
+}
+
+QScrollArea QWidget {
+    background-color: #222222;
+}
+
+QLabel#rightLabel {
+    background-color: #222222;
+    font-size: 12pt;
+}
+
+QLabel#rightLabelTitle {
+    background-color: #222222;
+    font-size: 25pt;
+    font-weight: bold;
+}
+QLabel#rightLabelSmall {
+    background-color: #222222;
+    font-size: 9pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+
+QLabel#articlesString {
+    background-color: #382c35;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+QPushButton#removeButton {
+    color: #FFFFFF;
+    background-color: black;
+    border: none;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+QPushButton#removeButton:hover {
+    background-color: #b3379e;
+}
+
+QPushButton#removeButton:pressed {
+    background-color: #822873;
+}
+
+QListView#articleListView {
+    background-color: #382c35;
+    color: #FFFFFF;
+    border: none;
+    show-decoration-selected: 1; 
+}
+
+QListView#articleListView::item {
+    color: #FFFFFF;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+QListView#articleListView::item:hover {
+    background-color: #333333;
+}
+
+QListView#articleListView::item:selected {
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+QWidget#articlesWidget {
+    border-radius: 20px;
+    background-color: #382c35;
+}
+
+#articleScrollArea {
+    border: 0px solid none; 
+    background-color: #231720;
+    border-radius: 15px;
+}
+
+#rightLabelSmallArticle {
+    font-size: 10pt;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+}
+
+#rightLabelArticle {
+    font-size: 12pt;
+}
+
+#rightLabelTitleArticle {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+QScrollArea#articleScrollArea QWidget {
+    background-color: #333333;
+    border-radius: 15px;
+}

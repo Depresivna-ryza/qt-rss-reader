@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/style.qss</file>
+        <file>resources/noimage.png</file>
+        <file>resources/delete.png</file>
+        <file>resources/plus.png</file>
+        <file>resources/plus2.png</file>
+        <file>resources/rss.png</file>
+        <file>resources/search.png</file>
+    </qresource>
+</RCC>
