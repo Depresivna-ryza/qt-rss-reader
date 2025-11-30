@@ -1,6 +1,11 @@
 # HW05 RSS Reader
 
-RSS Client is a desktop application built with Qt that allows users to subscribe to and read articles from RSS feeds.
+RSS Client is a desktop application built with Qt that allows users to subscribe to and read articles from RSS feeds. 
+Works directly with the RSS protocol specificiation by parsing it from low-level elements.
+
+
+https://github.com/user-attachments/assets/259b9e98-d83b-4986-9721-cd6d4308cbeb
+
 
 ## Features
 - Subscribe to RSS feeds by entering the feed URL.
